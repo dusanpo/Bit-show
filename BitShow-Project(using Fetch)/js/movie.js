@@ -95,17 +95,17 @@ fetch(requestSeason, {
   
      seasonsDiv.className = "seasonsDiv";
      seasonsTitle.textContent = "Seasons(" + seasons.length + ")";
-    // for (let i = 0; i < seasons.length; i++) {
+  
         seasons.forEach(function (elem){
          const singleSeason = document.createElement("li");
-        // singleSeason.textContent = seasons[i].premiereDate + " _ " + seasons[i].endDate;
+       
         singleSeason.textContent = `${elem.premiereDate} _ ${elem.endDate}`;
         listOfSeasons.appendChild(singleSeason);
          seasonsDiv.appendChild(seasonsTitle);
          seasonsDiv.appendChild(listOfSeasons);
          container.appendChild(seasonsDiv);
         })
-    //  };
+    
   });
 
 
