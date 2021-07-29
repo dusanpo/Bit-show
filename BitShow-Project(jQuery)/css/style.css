@@ -1,0 +1,118 @@
+#footer {
+  color: white;
+  background-color: #303030;
+  width: 100%;
+  height: 80px;
+  text-align: center;
+}
+
+#footer p {
+  padding-top: 30px;
+}
+
+h1 {
+  text-align: center;
+  color: #303030;
+  margin: 20px;
+}
+
+.navMenu {
+  background-color: #303030;
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  #container {
+    width: 70%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+.singleMovie {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 992px) {
+  .singleMovie {
+    width: 30%;
+    border: 1px solid lightgray;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .singleMovie {
+    width: 48%;
+    border: 1px solid lightgray;
+    margin-bottom: 10px;
+  }
+}
+
+.singleMovie img {
+  width: 100%;
+}
+
+.singleMovie a {
+  text-align: center;
+  display: block;
+  color: blue;
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+@media screen and (min-width: 992px) {
+  .singleMovie a {
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .singleMovie a {
+    margin-bottom: 5px;
+  }
+}
+
+.activeUl {
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+  position: absolute;
+  width: 190px;
+  right: 282px;
+  top: -9px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
+  display: none;
+}
+
+ul li {
+  border-bottom: 1px solid gray;
+  width: 190px;
+  height: 38px;
+  padding-left: 10px;
+  padding-bottom: 2px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: gray;
+  font-size: 12px;
+}
+/*# sourceMappingURL=style.css.map */

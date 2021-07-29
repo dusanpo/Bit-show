@@ -1,0 +1,53 @@
+.navMenu {
+  background-color: #303030;
+  color: white;
+}
+
+#footer {
+  color: white;
+  background-color: #303030;
+  width: 100%;
+  height: 80px;
+  text-align: center;
+}
+
+#footer p {
+  padding-top: 30px;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px;
+}
+
+@media screen and (min-width: 992px) {
+  .seasonsDiv {
+    width: 30%;
+    position: absolute;
+    right: 30px;
+    top: 130px;
+  }
+}
+
+.seasonsDiv ul {
+  margin-left: 20px;
+}
+
+@media screen and (min-width: 992px) {
+  .castDiv {
+    width: 30%;
+    position: absolute;
+    right: 30px;
+    top: 400px;
+  }
+}
+
+.castDiv ul {
+  margin-left: 20px;
+}
+
+.details {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=styleShow.css.map */

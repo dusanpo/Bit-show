@@ -1,0 +1,53 @@
+
+$greyish: #303030;
+$whiteish: white;
+
+
+
+
+.navMenu {
+    background-color:$greyish;
+    color: white;
+  }
+  #footer {
+    color:$whiteish;
+    background-color:$greyish;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+#footer p {
+      padding-top: 30px; 
+}
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+
+.seasonsDiv {
+    @media screen and(min-width:992px){
+    width: 30%;
+
+    position: absolute;
+    right: 30px;
+    top: 130px;
+ 
+   
+    }
+
+}
+
+.castDiv {
+    @media screen and(min-width:992px){
+    width: 30%;
+  position:absolute;
+    right: 30px;
+    top: 400px;
+    }
+}
+.details{
+  margin-left:15px;
+  margin-top:10px;
+}
+
