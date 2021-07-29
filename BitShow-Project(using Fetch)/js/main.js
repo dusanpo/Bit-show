@@ -59,7 +59,7 @@ input.addEventListener("keydown", function () {
 
 
         const list = document.querySelector("ul");
-        //for (let j = 0; j < result.length; j++) {
+        
             result.forEach(function (element){
                 
             
@@ -71,7 +71,7 @@ input.addEventListener("keydown", function () {
             list.appendChild(listItem);
             })
 
-        // };
+        
     })
 
 });
